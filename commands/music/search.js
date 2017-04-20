@@ -9,11 +9,7 @@ class SearchCommand extends Commando.Command {
             name: 'search',
             group: 'music',
             memberName: 'search',
-            description: 'Add the searched video to the playlist queue',
-            parameters: [{
-                prompt: 'query',
-                type: 'string'
-            }]
+            description: 'Add the searched video to the playlist queue'
         });
     }
 

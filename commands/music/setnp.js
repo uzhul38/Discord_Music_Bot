@@ -11,6 +11,7 @@ class SetNpCommand extends Commando.Command {
             memberName: 'setnp',
             description: 'Sets whether the bot will announce the current song or not',
             args: [{
+                key: 'string',
                 prompt: 'on/off',
                 type: 'string'
             }]
@@ -32,4 +33,4 @@ class SetNpCommand extends Commando.Command {
     }
 }
 
-module.exports = NpCommand;
+module.exports = SetNpCommand;
